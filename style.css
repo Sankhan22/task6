@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    gap: 20px;
+    padding: 50px;
+}
+section div{
+    width: 350px;
+    height: 500px;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align:center;
+    padding: 30px;
+    
+    
+    
+}
+
+
+
+.btn{
+    background-color: blue;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 50px;
+    
+}
